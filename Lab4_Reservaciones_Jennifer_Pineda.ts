@@ -54,8 +54,8 @@ console.log(listaReservaciones);
 console.log("\n--- ATENDIENDO RESERVACIONES ---");
 atenderReservacion(listaReservaciones); // Esto retirará al "Alcalde (PRIORIDAD)"
 
-// Llamada 2 a la función tipada (Situación: arreglo vacío de prueba)
-// Esto demuestra que la función maneja correctamente el caso sin datos.
+// Llamada 2 a la función tipada con el arreglo vacío de prueba
+
 let listaVaciaPrueba: Reservacion[] = [];
 atenderReservacion(listaVaciaPrueba); 
 
