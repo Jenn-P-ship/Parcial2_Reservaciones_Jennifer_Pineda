@@ -46,12 +46,12 @@ listaReservaciones.unshift({
     zona: "Terraza" 
 });
 
-console.log("--- 2. LISTA ANTES DE ATENDER ---");
+console.log("--- LISTA ANTES DE ATENDER ---");
 console.log(listaReservaciones);
 
 
 //Atender una reservación
-console.log("\n--- 3. ATENDIENDO RESERVACIONES ---");
+console.log("\n--- ATENDIENDO RESERVACIONES ---");
 atenderReservacion(listaReservaciones); // Esto retirará al "Alcalde (PRIORIDAD)"
 
 // Llamada 2 a la función tipada (Situación: arreglo vacío de prueba)
@@ -61,7 +61,7 @@ atenderReservacion(listaVaciaPrueba);
 
 
 //Buscamos y consultamos
-console.log("\n--- 4. BÚSQUEDA Y FILTRO ---");
+console.log("\n--- BÚSQUEDA Y FILTRO ---");
 
 // Buscar por ID existente 
 const buscarExistente = listaReservaciones.find(res => res.id === 2);
@@ -106,7 +106,7 @@ if (filtroSinResultados.length > 0) {
 
 
 //Comprobación final
-console.log("\n--- 6. ESTADO FINAL DE LAS RESERVACIONES ---");
+console.log("\n--- ESTADO FINAL DE LAS RESERVACIONES ---");
 const cantidadDespuesFiltro = listaReservaciones.length;
 
 // Aquí comprobamos que el filtro no destruyó el arreglo original
